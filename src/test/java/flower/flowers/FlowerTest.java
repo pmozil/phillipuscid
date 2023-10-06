@@ -1,11 +1,10 @@
-package flower.store;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+package flower.flowers;
 
 import java.util.Random;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class FlowerTest {
     private static final Random RANDOM_GENERATOR = new Random();
