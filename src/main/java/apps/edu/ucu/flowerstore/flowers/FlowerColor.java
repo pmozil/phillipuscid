@@ -1,4 +1,6 @@
-package flower.flowers;
+package apps.edu.ucu.flowerstore.flowers;
+
+import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum FlowerColor {
     /**
@@ -14,5 +16,10 @@ public enum FlowerColor {
     @Override
     public String toString() {
         return stringRepresentation;
+    }
+
+    @JsonValue
+    public String getValue() {
+        return this.stringRepresentation;
     }
 }

@@ -1,9 +1,10 @@
-package flower.flowers;
+package apps.edu.ucu.flowerstore.flowers;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import lombok.NoArgsConstructor;
+
 
 @NoArgsConstructor
 public class FlowerBucket {

@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FlowerstoreApplication<flowerstore>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "apps.edu.ucu.flowerstore.FlowerstoreApplication",
+            "projectName": "flowerstore",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

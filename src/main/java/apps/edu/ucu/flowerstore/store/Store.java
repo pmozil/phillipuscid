@@ -1,9 +1,9 @@
-package flower.store;
+package apps.edu.ucu.flowerstore.store;
 
-import flower.Item;
-import flower.filters.Filter;
 import java.util.ArrayList;
 import java.util.List;
+
+import apps.edu.ucu.flowerstore.Item;
 
 
 public class Store {

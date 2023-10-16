@@ -1,11 +1,11 @@
-package flower.flowers;
+package apps.edu.ucu.flowerstore.flowers;
 
-import flower.Item;
-import lombok.AllArgsConstructor;
+import apps.edu.ucu.flowerstore.Item;
+import apps.edu.ucu.flowerstore.flowers.FlowerColor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
+import lombok.AllArgsConstructor;
 
 @Setter @AllArgsConstructor @NoArgsConstructor
 public class Flower extends Item {
