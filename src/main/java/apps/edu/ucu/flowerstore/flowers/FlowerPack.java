@@ -1,9 +1,10 @@
 package apps.edu.ucu.flowerstore.flowers;
 
+import apps.edu.ucu.flowerstore.Item;
 import lombok.Getter;
 import lombok.Setter;
 
-public class FlowerPack {
+public class FlowerPack extends Item {
     @Getter @Setter
     private Flower flower;
     @Getter
