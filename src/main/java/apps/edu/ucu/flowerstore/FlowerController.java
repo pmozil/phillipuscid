@@ -7,10 +7,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import apps.edu.ucu.flowerstore.flowers.Flower;
+import apps.edu.ucu.flowerstore.flowers.FlowerService;
 
 @RestController
 @RequestMapping("/flower/")
 public class FlowerController {
+    private final FlowerService flowerService;
+    
+    public FlowerController(FlowerService flowerService) {
+        this.flowerService = flowerService;
+    }
     
     @GetMapping("/")
     public Flower hello() {
@@ -19,7 +25,6 @@ public class FlowerController {
 
     @GetMapping("/list")
     public List<Flower> list() {
-        Flower f1 = new Flower();
-        return List.of(f1,f1,f1,f1);
+        return flowerService.getFlowers();
     }
 }

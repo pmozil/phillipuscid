@@ -1,13 +1,13 @@
 package apps.edu.ucu.flowerstore.flowers;
 
 import apps.edu.ucu.flowerstore.Item;
-import apps.edu.ucu.flowerstore.flowers.FlowerColor;
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.AllArgsConstructor;
 
-@Setter @AllArgsConstructor @NoArgsConstructor
+@Setter @AllArgsConstructor @NoArgsConstructor @Entity
 public class Flower extends Item {
     @Getter
     private FlowerType flowerType = FlowerType.ROSE;
