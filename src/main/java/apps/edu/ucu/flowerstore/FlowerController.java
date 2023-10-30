@@ -3,6 +3,7 @@ package apps.edu.ucu.flowerstore;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -26,5 +27,10 @@ public class FlowerController {
     @GetMapping("/list")
     public List<Flower> list() {
         return flowerService.getFlowers();
+    }
+    
+    @PostMapping
+    public void addFlower(Flower flower) {
+        flowerService.addFlower(flower);
     }
 }

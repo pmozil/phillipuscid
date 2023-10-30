@@ -1,5 +1,5 @@
 package apps.edu.ucu.flowerstore.delivery;
 
-public interface DHLDelivery implements DeliveryStrategy {
+public interface DHLDelivery extends DeliveryStrategy {
     
 }

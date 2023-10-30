@@ -29,6 +29,14 @@ public class Flower extends Item {
         this.sepalLength = flower.sepalLength;
     }
 
+    public FlowerColor getColorEnum() {
+        return color;
+    }
+    
+    public FlowerType getType() {
+        return flowerType;
+    }
+
     public String getColor() {
         return color.toString();
     }

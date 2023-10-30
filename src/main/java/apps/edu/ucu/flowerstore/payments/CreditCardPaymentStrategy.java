@@ -1,5 +1,5 @@
 package apps.edu.ucu.flowerstore.payments;
 
-public interface CreditCardPaymentStrategy implements PaymentStrategy {
+public interface CreditCardPaymentStrategy extends PaymentStrategy {
     
 }
